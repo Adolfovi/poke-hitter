@@ -156,7 +156,7 @@ body{
 
     #play{
         
-        font-size: 15px;
+        font-size: 9px;
         text-align: left;
         width: 140px;
         top: 50px;
@@ -175,7 +175,7 @@ body{
 
     #time{
         right: -15px;
-        bottom: -45px;
+        bottom: -35px;
         padding: 0px;
         position: absolute;
 }
@@ -188,7 +188,7 @@ body{
 }
 
 #version{
-bottom: -10px;
+bottom: 0px;
 
 }
   }
