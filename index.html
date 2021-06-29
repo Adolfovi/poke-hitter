@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-Hitter</title>
+    <link rel="stylesheet" type="text/css" href="css/first.css">
+    <script src="js/game.js"></script>
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="main">
+<h1>¿Que color es?</h1>
+<div id="option"><img id="option-image" src=""></div>
+<div id="group-buttons">
+<button class="nes-btn is-error left-button" onclick="isred()"></button>
+<button class="nes-btn is-success right-button" onclick="isgreen()"></button>
+</div>
+        <div id="instructions" class="nes-container is-rounded" onclick="help()">Instrucciones</div>
+        <div id="play" class="nes-container is-rounded" onclick="letsgo()">Play</div>
+        <p id="score" class="nes-container is-rounded">Score: -</p>
+        <div id="time"></div>
+        <div id="version" class="nes-container is-rounded">NES VERSION</div>
+    </div>
+</body>
+
+</html>
